@@ -30,7 +30,7 @@ proxy = '127.0.0.1:10809'
 proxies = {}
 
 # 签到成功后，是否发送信息到TG，如果为True，需要设置两个环境变量TG_CHAT_ID、TG_BOT_TOKEN
-send_points_to_tg_flag = True
+send_points_to_tg_flag = false
 
 sched = BlockingScheduler()
 
